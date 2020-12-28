@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="{CHARSET}" charset=UTF-8>
+		<link rel="stylesheet" href="css/reader.css">
+		<link rel="stylesheet" href="font/FZFWTongQPOPTJW.css">
+		<script>
+				function read(){
+					var opo = document.getElementById("text");
+					var viv = opo.value;
+					var msg = new SpeechSynthesisUtterance(viv);
+					msg.pitch = 2;
+					msg.rate = 1;
+				    window.speechSynthesis.speak(msg);
+				}
+				
+			</script>
+		<title>天天爱读书</title>
+	</head>
+	<body style="background-image: linear-gradient(#0f2027, #2c5364); background-repeat: no-repeat; height: 1000px;">
+		<div >
+			<div class="logo">
+				<img class="logo" src="img/logo.png" />
+			</div>
+			
+			<div class="slogan">
+				<p>
+					我们从来就是双向奔赴 终点是更好的自己❤
+				</p>
+			</div>		
+			
+			<div class="text">
+				<div class="text2" >
+					
+					<textarea  id="text" input placeholder="请输入内容..."></textarea>
+					<div class="btn"><button id="btn1" onclick="read()">开始阅读</button></div>
+						
+				</div>
+			</div>
+			
+		</div>
+	</body>
+</html>

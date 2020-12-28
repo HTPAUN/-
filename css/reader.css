@@ -1,0 +1,77 @@
+
+html{
+	font-size: 10px;
+}
+
+.logo img{
+	width: 7rem;
+	height: 7rem;
+	margin-top: 3rem;
+	margin-left: 3rem;
+	margin-bottom: 0rem;
+}
+
+.slogan p{
+	font-family:FZFWTongQPOPTJW;
+	font-size: 4rem;
+	text-align: center;
+	margin-top: 0rem;
+	color: rgba(15,30,38,0.2);
+}
+
+p:hover{
+	color: rgba(15,30,38,0.8);
+}
+
+.text{
+	display: block;
+	margin: 0 auto;	
+	
+}
+
+.text2{
+	border-radius: 2rem;
+	height: 45rem;
+	margin: 6rem;
+}
+textarea{
+	display: block;
+	margin: 0 auto;
+	padding: 3rem;
+	width:92%;
+	height: 70%;
+	outline: none;
+	border: none;
+	background-color: transparent;
+	font-size: 2rem;
+	font-family: "微软雅黑";
+	color: #d4e5ed;
+	line-height: 5rem;
+	line-break: 2rem;
+	}
+	
+textarea::-webkit-scrollbar
+{
+	width: 16px;
+	height: 16px;
+	background-color: transparent;
+
+}
+
+.btn{
+	float: right;
+	margin: 3rem;
+}
+
+button{
+	padding-left: 2rem;
+	padding-right: 2rem;
+	background-color: transparent;
+	outline-style: none;
+	font-family:FZFWTongQPOPTJW;
+	font-size: 2rem;
+	color: #d4e5ed;
+	border-radius: 3rem;
+	background-color: rgba(15,30,38,0.2) ;
+	height: 5rem;text-align: center;
+}
